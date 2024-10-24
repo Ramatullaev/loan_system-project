@@ -8,7 +8,7 @@ def connect_db():
         host="localhost",
         database="loan_system",    # Имя базы данных
         user="postgres",           # Имя пользователя PostgreSQL
-        password="Rauan2012"       # Пароль для этого пользователя
+        password="mypassword"       # Пароль для этого пользователя
     )
     return conn
 
